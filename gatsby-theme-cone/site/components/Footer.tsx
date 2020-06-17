@@ -141,39 +141,7 @@ const Footer: React.FC<FooterProps> = ({
         bottom || (
           <div className={styles.bottom}>
             <div>
-              <a
-                href="https://weibo.com/antv2017"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <WeiboOutlined />
-              </a>
-              <a
-                href="https://zhuanlan.zhihu.com/aiux-antv"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <ZhihuOutlined />
-              </a>
-              <a
-                href="https://github.com/cnfe"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <GithubOutlined />
-              </a>
-              <a href={`${rootDomain}/${lang}/about`}>{t('关于我们')}</a>
-              <a
-                href={OLD_SITE_DOMAIN}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {t('返回旧版')}
-              </a>
-            </div>
-            <div>
-              © {new Date().getFullYear()} Made with ❤ by{' '}
-              <a href="https://xtech.antfin.com/">XTech</a>
+              © {new Date().getFullYear()} 菜鸟生态体验技术平台出品
             </div>
           </div>
         )

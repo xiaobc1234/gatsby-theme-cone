@@ -1,12 +1,12 @@
 import React from 'react';
-import SEO from '@cnfe/gatsby-theme-cone/site/components/Seo';
+import SEO from 'gatsby-theme-cone/site/components/Seo';
 import { useTranslation } from 'react-i18next';
-import Banner from '@cnfe/gatsby-theme-cone/site/components/Banner';
-import Footer from '@cnfe/gatsby-theme-cone/site/components/Footer';
-import Companies from '@cnfe/gatsby-theme-cone/site/components/Companies';
-import Features from '@cnfe/gatsby-theme-cone/site/components/Features';
-import Cases from '@cnfe/gatsby-theme-cone/site/components/Cases';
-import BannerSVG from '@cnfe/gatsby-theme-cone/site/components/BannerSVG';
+import Banner from 'gatsby-theme-cone/site/components/Banner';
+import Footer from 'gatsby-theme-cone/site/components/Footer';
+import Companies from 'gatsby-theme-cone/site/components/Companies';
+import Features from 'gatsby-theme-cone/site/components/Features';
+import Cases from 'gatsby-theme-cone/site/components/Cases';
+import BannerSVG from 'gatsby-theme-cone/site/components/BannerSVG';
 
 const IndexPage = () => {
   const { t, i18n } = useTranslation();
@@ -147,7 +147,7 @@ const IndexPage = () => {
       <Features features={features} style={{ width: '100%' }} />
       <Cases cases={cases} />
       <Companies title={t('合作公司')} companies={companies} />
-      <Footer rootDomain="https://antv.vision" columns={[]} bottom={<div>powered by antv</div>} />
+      <Footer rootDomain="https://antv.vision" />
     </>
   );
 };

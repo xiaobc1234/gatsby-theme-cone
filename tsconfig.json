@@ -1,5 +1,5 @@
 {
-  "include": ["@cnfe/gatsby-theme-cone", "example"],
+  "include": ["gatsby-theme-cone", "example"],
   "compilerOptions": {
     "target": "es2019",
     "module": "commonjs",

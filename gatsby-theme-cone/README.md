@@ -23,7 +23,7 @@ const { repository } = require('./package.json');
 module.exports = {
   plugins: [
     {
-      resolve: `@cnfe/gatsby-theme-cone`,
+      resolve: `gatsby-theme-cone`,
       options: {
         // pagesPath: './site/pages',
         GATrackingId: `UA-XXXXXXXXX-X`,
@@ -77,15 +77,15 @@ module.exports = {
 ### Components
 
 ```jsx
-import SEO from '@cnfe/gatsby-theme-cone/site/components/Seo';
-import Header from '@cnfe/gatsby-theme-cone/site/components/Header';
-import Footer from '@cnfe/gatsby-theme-cone/site/components/Footer';
-import Banner from '@cnfe/gatsby-theme-cone/site/components/Banner';
-import Features from '@cnfe/gatsby-theme-cone/site/components/Features';
-import Applications from '@cnfe/gatsby-theme-cone/site/components/Applications';
-import Companies from '@cnfe/gatsby-theme-cone/site/components/Companies';
+import SEO from 'gatsby-theme-cone/site/components/Seo';
+import Header from 'gatsby-theme-cone/site/components/Header';
+import Footer from 'gatsby-theme-cone/site/components/Footer';
+import Banner from 'gatsby-theme-cone/site/components/Banner';
+import Features from 'gatsby-theme-cone/site/components/Features';
+import Applications from 'gatsby-theme-cone/site/components/Applications';
+import Companies from 'gatsby-theme-cone/site/components/Companies';
 
-// @cnfe/gatsby-theme-cone/components/Header for commonjs version
+// gatsby-theme-cone/components/Header for commonjs version
 
 const Layout = () => {
   const features = [
@@ -215,7 +215,7 @@ Visit https://localhost:8000 to preview.
 ## Publish to npm
 
 ```bash
-cd @cnfe/gatsby-theme-cone
+cd gatsby-theme-cone
 npm run release
 ```
 
@@ -230,14 +230,14 @@ npm run deploy
 ## Add Dependency
 
 ```bash
-cd @cnfe/gatsby-theme-cone
+cd gatsby-theme-cone
 yarn add shallowequal
 ```
 
 or
 
 ```bash
-yarn workspace @cnfe/gatsby-theme-cone shallowequal
+yarn workspace gatsby-theme-cone shallowequal
 ```
 
 ## Related libraries

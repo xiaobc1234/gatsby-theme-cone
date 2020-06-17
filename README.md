@@ -6,11 +6,11 @@
 
 ✨ Polished Gatsby theme for documentation site.
 
-[![](https://flat.badgen.net/npm/v/@cnfe/gatsby-theme-cone?icon=npm)](https://www.npmjs.com/package/@cnfe/gatsby-theme-cone)
-[![NPM downloads](http://img.shields.io/npm/dm/@cnfe/gatsby-theme-cone.svg?style=flat-square)](http://npmjs.com/@cnfe/gatsby-theme-cone)
+[![](https://flat.badgen.net/npm/v/gatsby-theme-cone?icon=npm)](https://www.npmjs.com/package/gatsby-theme-cone)
+[![NPM downloads](http://img.shields.io/npm/dm/gatsby-theme-cone.svg?style=flat-square)](http://npmjs.com/gatsby-theme-cone)
 ![CI status](https://github.com/cnfe/gatsby-theme-cone/workflows/Node%20CI/badge.svg)
-[![Dependency Status](https://david-dm.org/cnfe/gatsby-theme-cone.svg?style=flat-square&path=@cnfe/gatsby-theme-cone)](https://david-dm.org/cnfe/gatsby-theme-cone?path=@cnfe/gatsby-theme-cone)
-[![devDependencies Status](https://david-dm.org/cnfe/gatsby-theme-cone/dev-status.svg?style=flat-square&path=@cnfe/gatsby-theme-cone)](https://david-dm.org/cnfe/gatsby-theme-cone?type=dev&path=@cnfe/gatsby-theme-cone)
+[![Dependency Status](https://david-dm.org/cnfe/gatsby-theme-cone.svg?style=flat-square&path=gatsby-theme-cone)](https://david-dm.org/cnfe/gatsby-theme-cone?path=gatsby-theme-cone)
+[![devDependencies Status](https://david-dm.org/cnfe/gatsby-theme-cone/dev-status.svg?style=flat-square&path=gatsby-theme-cone)](https://david-dm.org/cnfe/gatsby-theme-cone?type=dev&path=gatsby-theme-cone)
 ![prettier code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)
 
 </div>
@@ -63,7 +63,7 @@ const { repository } = require('./package.json');
 module.exports = {
   plugins: [
     {
-      resolve: `@cnfe/gatsby-theme-cone`,
+      resolve: `gatsby-theme-cone`,
       options: {
         // pagesPath: './site/pages',
         GATrackingId: `UA-XXXXXXXXX-X`,
@@ -127,15 +127,15 @@ module.exports = {
 - [Companies Props](https://github.com/cnfe/gatsby-theme-cone/blob/c6178d1baeebce4ef4e31773a6b533020b662b27/%40antv/gatsby-theme-antv/site/components/Companies.tsx#L6-L16)
 
 ```jsx
-import SEO from '@cnfe/gatsby-theme-cone/site/components/Seo';
-import Header from '@cnfe/gatsby-theme-cone/site/components/Header';
-import Footer from '@cnfe/gatsby-theme-cone/site/components/Footer';
-import Banner from '@cnfe/gatsby-theme-cone/site/components/Banner';
-import Features from '@cnfe/gatsby-theme-cone/site/components/Features';
-import Applications from '@cnfe/gatsby-theme-cone/site/components/Applications';
-import Companies from '@cnfe/gatsby-theme-cone/site/components/Companies';
+import SEO from 'gatsby-theme-cone/site/components/Seo';
+import Header from 'gatsby-theme-cone/site/components/Header';
+import Footer from 'gatsby-theme-cone/site/components/Footer';
+import Banner from 'gatsby-theme-cone/site/components/Banner';
+import Features from 'gatsby-theme-cone/site/components/Features';
+import Applications from 'gatsby-theme-cone/site/components/Applications';
+import Companies from 'gatsby-theme-cone/site/components/Companies';
 
-// @cnfe/gatsby-theme-cone/components/Header for commonjs version
+// gatsby-theme-cone/components/Header for commonjs version
 
 const Layout = () => {
   const features = [
@@ -265,7 +265,7 @@ Visit https://localhost:8000 to preview.
 ## Publish to npm
 
 ```bash
-cd @cnfe/gatsby-theme-cone
+cd gatsby-theme-cone
 npm run release
 ```
 
@@ -280,14 +280,14 @@ npm run deploy
 ## Add Dependency
 
 ```bash
-cd @cnfe/gatsby-theme-cone
+cd gatsby-theme-cone
 yarn add shallowequal
 ```
 
 or
 
 ```bash
-yarn workspace @cnfe/gatsby-theme-cone add shallowequal
+yarn workspace gatsby-theme-cone add shallowequal
 ```
 
 ## Related libraries

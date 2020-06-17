@@ -3,7 +3,7 @@ const { version, repository, homepage } = require('./package.json');
 module.exports = {
   plugins: [
     {
-      resolve: '@cnfe/gatsby-theme-cone',
+      resolve: 'gatsby-theme-cone',
       options: {},
     },
   ],

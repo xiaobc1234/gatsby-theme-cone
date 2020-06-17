@@ -1,7 +1,7 @@
 {
-  "name": "@cnfe/gatsby-theme-cone",
+  "name": "gatsby-theme-cone",
   "description": "Cone Visualization solution home page",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "author": "CNFE Team",
   "keywords": [
     "gatsby",
@@ -114,8 +114,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "release": "dotenv release-it --ci",
-    "copy:components": "mkdir -p lib && cp -R .tmp/@cnfe/gatsby-theme-cone/site/components lib && cp site/components/*.less ./lib/components && cp site/common.json ./lib && cp -R site/images ./lib",
-    "compile:components": "rm -rf .tmp lib && ../../node_modules/.bin/tsc --outDir .tmp --noEmit false -d && npm run copy:components",
+    "copy:components": "mkdir -p lib && cp -R .tmp/gatsby-theme-cone/site/components lib && cp site/components/*.less ./lib/components && cp site/common.json ./lib && cp -R site/images ./lib",
+    "compile:components": "rm -rf .tmp lib && ../node_modules/.bin/tsc --outDir .tmp --noEmit false -d && npm run copy:components",
     "test": "jest"
   },
   "release-it": {

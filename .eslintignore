@@ -1,4 +1,4 @@
-@cnfe/gatsby-theme-cone/site/**/*.js
-@cnfe/gatsby-theme-cone/lib
+gatsby-theme-cone/site/**/*.js
+gatsby-theme-cone/lib
 example/examples
 node_modules

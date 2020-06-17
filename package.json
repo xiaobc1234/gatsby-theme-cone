@@ -1,5 +1,5 @@
 {
-  "name": "@cnfe/gatsby-theme-cone",
+  "name": "gatsby-theme-cone",
   "private": true,
   "repository": {
     "type": "git",
@@ -10,7 +10,7 @@
   },
   "license": "MIT",
   "workspaces": [
-    "@cnfe/gatsby-theme-cone",
+    "gatsby-theme-cone",
     "example"
   ],
   "devDependencies": {
@@ -33,8 +33,8 @@
     "start": "yarn workspace example develop",
     "build": "yarn workspace example build",
     "deploy": "npm run build && gh-pages -d example/public",
-    "test": "yarn workspace @cnfe/gatsby-theme-cone test",
-    "release": "yarn workspace @cnfe/gatsby-theme-cone run release",
+    "test": "yarn workspace gatsby-theme-cone test",
+    "release": "yarn workspace gatsby-theme-cone run release",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md,less}\"",
     "lint": "eslint . --ext '.js,.jsx,.ts,.tsx'",
     "lint:fix": "eslint . --ext '.js,.jsx,.ts,.tsx' --fix",
