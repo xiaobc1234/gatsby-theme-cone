@@ -11,4 +11,4 @@ jobs:
       - name: Automatic Rebase
         uses: cirrus-actions/rebase@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GATSBY_THEME_CONE_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
