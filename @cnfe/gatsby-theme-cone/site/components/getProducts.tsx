@@ -84,13 +84,13 @@ export const getProducts = ({
         {
           icon: <HistoryOutlined />,
           title: t('更新日志'),
-          url: `https://github.com/antvis/g2/blob/master/CHANGELOG.md`,
+          url: `https://github.com/cnfe/g2/blob/master/CHANGELOG.md`,
           openExternal: true,
         },
         {
           icon: <GithubOutlined />,
           title: t('GitHub 仓库'),
-          url: `https://github.com/antvis/g2`,
+          url: `https://github.com/cnfe/g2`,
           openExternal: true,
         },
         {
@@ -132,13 +132,13 @@ export const getProducts = ({
         {
           icon: <HistoryOutlined />,
           title: t('更新日志'),
-          url: `https://github.com/antvis/g6/blob/master/CHANGELOG.md`,
+          url: `https://github.com/cnfe/g6/blob/master/CHANGELOG.md`,
           openExternal: true,
         },
         {
           icon: <GithubOutlined />,
           title: t('GitHub 仓库'),
-          url: `https://github.com/antvis/g6`,
+          url: `https://github.com/cnfe/g6`,
           openExternal: true,
         },
         {
@@ -182,13 +182,13 @@ export const getProducts = ({
         {
           icon: <HistoryOutlined />,
           title: t('更新日志'),
-          url: `https://github.com/antvis/f2/blob/master/CHANGELOG.md`,
+          url: `https://github.com/cnfe/f2/blob/master/CHANGELOG.md`,
           openExternal: true,
         },
         {
           icon: <GithubOutlined />,
           title: t('GitHub 仓库'),
-          url: `https://github.com/antvis/f2`,
+          url: `https://github.com/cnfe/f2`,
           openExternal: true,
         },
         {
@@ -230,13 +230,13 @@ export const getProducts = ({
         {
           icon: <HistoryOutlined />,
           title: t('更新日志'),
-          url: `https://github.com/antvis/L7/blob/master/CHANGELOG.md`,
+          url: `https://github.com/cnfe/L7/blob/master/CHANGELOG.md`,
           openExternal: true,
         },
         {
           icon: <GithubOutlined />,
           title: t('GitHub 仓库'),
-          url: `https://github.com/antvis/L7`,
+          url: `https://github.com/cnfe/L7`,
           openExternal: true,
         },
         {
@@ -272,13 +272,13 @@ export const getProducts = ({
         {
           icon: <HistoryOutlined />,
           title: t('更新日志'),
-          url: `https://github.com/antvis/g2plot/blob/master/CHANGELOG.md`,
+          url: `https://github.com/cnfe/g2plot/blob/master/CHANGELOG.md`,
           openExternal: true,
         },
         {
           icon: <GithubOutlined />,
           title: t('GitHub 仓库'),
-          url: `https://github.com/antvis/g2plot`,
+          url: `https://github.com/cnfe/g2plot`,
           openExternal: true,
         },
         {
@@ -314,13 +314,13 @@ export const getProducts = ({
         {
           icon: <HistoryOutlined />,
           title: t('更新日志'),
-          url: `https://github.com/antvis/graphin/blob/master/CHANGELOG.md`,
+          url: `https://github.com/cnfe/graphin/blob/master/CHANGELOG.md`,
           openExternal: true,
         },
         {
           icon: <GithubOutlined />,
           title: t('GitHub 仓库'),
-          url: `https://github.com/antvis/graphin`,
+          url: `https://github.com/cnfe/graphin`,
           openExternal: true,
         },
         {

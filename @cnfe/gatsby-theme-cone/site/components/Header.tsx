@@ -98,7 +98,7 @@ const Header: React.FC<HeaderProps> = ({
   logo,
   onLanguageChange,
   siteUrl,
-  githubUrl = 'https://github.com/antvis',
+  githubUrl = 'https://github.com/cnfe',
   defaultLanguage,
   Link = 'a',
   transparent,

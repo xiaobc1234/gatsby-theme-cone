@@ -1,47 +1,10 @@
-<div align="center">
-
-<img width="1295" alt="图片" src="https://user-images.githubusercontent.com/507615/69481549-49b39d00-0e4d-11ea-87fd-1e7741f4bdf1.png">
-
-# Gatsby Theme for AntV ⚛
-
-✨ Polished Gatsby theme for documentation site.
-
-[![](https://flat.badgen.net/npm/v/@cnfe/gatsby-theme-cone?icon=npm)](https://www.npmjs.com/package/@cnfe/gatsby-theme-cone)
-[![NPM downloads](http://img.shields.io/npm/dm/@cnfe/gatsby-theme-cone.svg?style=flat-square)](http://npmjs.com/@cnfe/gatsby-theme-cone)
-![CI status](https://github.com/cnfe/gatsby-theme-cone/workflows/Node%20CI/badge.svg)
-[![Dependency Status](https://david-dm.org/cnfe/gatsby-theme-cone.svg?style=flat-square&path=@cnfe/gatsby-theme-cone)](https://david-dm.org/cnfe/gatsby-theme-cone?path=@cnfe/gatsby-theme-cone)
-[![devDependencies Status](https://david-dm.org/cnfe/gatsby-theme-cone/dev-status.svg?style=flat-square&path=@cnfe/gatsby-theme-cone)](https://david-dm.org/cnfe/gatsby-theme-cone?type=dev&path=@cnfe/gatsby-theme-cone)
-![prettier code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)
-
-</div>
-
-## Features
-
-- ⚛ Prerendered static site
-- 🌎 Internationalization support by i18next
-- 📝 Markdown-based documentation and menus
-- 🎬 Examples with live playground
-- 🏗 Unified Theme and Layout
-- 🆙 Easy customized header nav
-- 🧩 Built-in home page components
-
-## Websites using it
-
-- ✨ https://antv.vision
-- ✨ https://g2plot.antv.vision
-- ✨ https://g2.antv.vision
-- ✨ https://g6.antv.vision
-- ✨ https://f2.antv.vision
-- ✨ https://l7.antv.vision
-- ✨ https://graphin.antv.vision
-
 ## Usage
 
-Create a Gatsby site from [gatsby-starter-theme-antv](https://github.com/antvis/gatsby-starter-theme-antv).
+Create a Gatsby site from [gatsby-starter-theme-cone](https://github.com/cnfe/gatsby-starter-theme-cone).
 
 ```bash
 $ yarn global add gatsby-cli // or npm install gatsby-cli -g
-$ gatsby new mysite https://github.com/antvis/gatsby-starter-theme-antv
+$ gatsby new mysite https://github.com/cnfe/gatsby-starter-theme-cone
 ```
 
 Start developing.
@@ -50,8 +13,6 @@ Start developing.
 $ cd mysite
 $ yarn start
 ```
-
-> ✨ AntV 站点 [接入方式](https://github.com/antvis/antvis.github.io/issues/18#issuecomment-548754442) 和 [额外功能](https://github.com/antvis/antvis.github.io/issues/18#issuecomment-568692771)
 
 ### `gatsby-config.js`
 
@@ -113,19 +74,7 @@ module.exports = {
 };
 ```
 
-- `navs`: [props](https://github.com/cnfe/gatsby-theme-cone/blob/aa8cdd7e24e965174cbe7173a841fd7d23537e52/%40antv/gatsby-theme-antv/gatsby-node.js#L242-L264)
-- `docs`: [props](https://github.com/cnfe/gatsby-theme-cone/blob/aa8cdd7e24e965174cbe7173a841fd7d23537e52/%40antv/gatsby-theme-antv/gatsby-node.js#L242-L264)
-- `examples`: [props](https://github.com/cnfe/gatsby-theme-cone/blob/aa8cdd7e24e965174cbe7173a841fd7d23537e52/%40antv/gatsby-theme-antv/gatsby-node.js#L242-L264)
-
 ### Components
-
-- [Header Props](https://github.com/cnfe/gatsby-theme-cone/blob/master/%40antv/gatsby-theme-antv/site/components/Header.tsx#L13-L39)
-- [Footer Props](https://github.com/cnfe/gatsby-theme-cone/blob/046a9c4e32eea50b49347b114714425a9f99b4b7/%40antv/gatsby-theme-antv/site/components/Footer.tsx#L149-L159)
-- [SEO Props](https://github.com/cnfe/gatsby-theme-cone/blob/046a9c4e32eea50b49347b114714425a9f99b4b7/%40antv/gatsby-theme-antv/site/components/Seo.tsx#L12-L17)
-- [Banner Props](https://github.com/cnfe/gatsby-theme-cone/blob/c6178d1baeebce4ef4e31773a6b533020b662b27/%40antv/gatsby-theme-antv/site/components/Banner.tsx#L8-L31)
-- [Features Props](https://github.com/cnfe/gatsby-theme-cone/blob/c6178d1baeebce4ef4e31773a6b533020b662b27/%40antv/gatsby-theme-antv/site/components/Features.tsx#L7-L17)
-- [Cases Props](https://github.com/cnfe/gatsby-theme-cone/blob/c6178d1baeebce4ef4e31773a6b533020b662b27/%40antv/gatsby-theme-antv/site/components/Cases.tsx#L14-L25)
-- [Companies Props](https://github.com/cnfe/gatsby-theme-cone/blob/c6178d1baeebce4ef4e31773a6b533020b662b27/%40antv/gatsby-theme-antv/site/components/Companies.tsx#L6-L16)
 
 ```jsx
 import SEO from '@cnfe/gatsby-theme-cone/site/components/Seo';
@@ -208,7 +157,7 @@ const Layout = () => {
           link: 'https://antv.alipay.com',
           img: <img src="url" />,
         }}
-        githubUrl="https://github.com/antvis/g2"
+        githubUrl="https://github.com/cnfe/g2"
         // docs={[]}
         showSearch={false}
         showGithubCorner={false}

@@ -140,7 +140,7 @@ export const getGithubSourceUrl = ({
   relativePath: string;
   prefix: string;
 }) => {
-  // https://github.com/antvis/x6/tree/master/packages/x6-sites
+  // https://github.com/cnfe/x6/tree/master/packages/x6-sites
   if (githubUrl.includes('/tree/master/')) {
     return `${githubUrl.replace(
       '/tree/master/',

@@ -38,11 +38,11 @@
 
 ## Usage
 
-Create a Gatsby site from [gatsby-starter-theme-antv](https://github.com/antvis/gatsby-starter-theme-antv).
+Create a Gatsby site from [gatsby-starter-theme-cone](https://github.com/cnfe/gatsby-starter-theme-cone).
 
 ```bash
 $ yarn global add gatsby-cli // or npm install gatsby-cli -g
-$ gatsby new mysite https://github.com/antvis/gatsby-starter-theme-antv
+$ gatsby new mysite https://github.com/cnfe/gatsby-starter-theme-cone
 ```
 
 Start developing.
@@ -52,7 +52,7 @@ $ cd mysite
 $ yarn start
 ```
 
-> ✨ AntV 站点 [接入方式](https://github.com/antvis/antvis.github.io/issues/18#issuecomment-548754442) 和 [额外功能](https://github.com/antvis/antvis.github.io/issues/18#issuecomment-568692771)
+> ✨ AntV 站点 [接入方式](https://github.com/cnfe/antvis.github.io/issues/18#issuecomment-548754442) 和 [额外功能](https://github.com/cnfe/antvis.github.io/issues/18#issuecomment-568692771)
 
 ### `gatsby-config.js`
 
@@ -207,7 +207,7 @@ const Layout = () => {
           link: 'https://antv.alipay.com',
           img: <img src="url" />,
         }}
-        githubUrl="https://github.com/antvis/g2"
+        githubUrl="https://github.com/cnfe/g2"
         // docs={[]}
         showSearch={false}
         showGithubCorner={false}

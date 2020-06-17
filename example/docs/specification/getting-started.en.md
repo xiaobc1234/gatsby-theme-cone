@@ -81,9 +81,9 @@ $ npm run demos
 
 ## How to Contribute
 
-Please let us know how can we help. Do check out [issues](https://github.com/antvis/g2/issues) for bug reports or suggestions first.
+Please let us know how can we help. Do check out [issues](https://github.com/cnfe/g2/issues) for bug reports or suggestions first.
 
-To become a contributor, please follow our [contributing guide](https://github.com/antvis/g2/blob/master/CONTRIBUTING.md).
+To become a contributor, please follow our [contributing guide](https://github.com/cnfe/g2/blob/master/CONTRIBUTING.md).
 
 ## ~~Experience Improvement Program Description~~
 

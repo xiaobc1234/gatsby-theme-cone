@@ -121,8 +121,7 @@
   "release-it": {
     "git": {
       "commitMessage": ":sparkles: Release ${version}",
-      "requireCleanWorkingDir": false,
-      "requireUpstream":false
+      "requireCleanWorkingDir":false
     },
     "github": {
       "release": true

@@ -156,7 +156,7 @@ const Footer: React.FC<FooterProps> = ({
                 <ZhihuOutlined />
               </a>
               <a
-                href="https://github.com/antvis"
+                href="https://github.com/cnfe"
                 target="_blank"
                 rel="noopener noreferrer"
               >
