@@ -1,3 +1,4 @@
 .tmp
 __mocks__
 site/__tests__
+.env
