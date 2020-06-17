@@ -1,7 +1,7 @@
 {
   "name": "@cnfe/gatsby-theme-cone",
   "description": "Cone Visualization solution home page",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "CNFE Team",
   "keywords": [
     "gatsby",
@@ -121,7 +121,7 @@
   "release-it": {
     "git": {
       "commitMessage": ":sparkles: Release ${version}",
-      "requireCleanWorkingDir":false
+      "requireCleanWorkingDir": false
     },
     "github": {
       "release": true
