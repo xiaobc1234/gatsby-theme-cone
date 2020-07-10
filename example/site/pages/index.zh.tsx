@@ -119,7 +119,7 @@ const IndexPage = () => {
   // const coverImage = <img width='100%' src='https://gw.alipayobjects.com/mdn/antv_site/afts/img/A*o40BRo-ANLoAAAAAAAAAAABkARQnAQ' alt='cover' />
   return (
     <>
-      <SEO title={t('蚂蚁数据可视化')} lang={i18n.language} />
+      <SEO title={t('菜鸟数据可视化')} lang={i18n.language} />
       <Banner
         // coverImage={coverImage}
         coverImage={<BannerSVG />}

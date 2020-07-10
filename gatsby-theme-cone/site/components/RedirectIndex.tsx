@@ -36,10 +36,10 @@ class RedirectIndex extends React.PureComponent<WithTranslation> {
     return (
       <>
         <Seo
-          title={title || 'AntV'}
-          titleSuffix={t('蚂蚁数据可视化')}
+          title={title || 'Cone'}
+          titleSuffix={t('菜鸟数据可视化')}
           description={t(
-            'AntV 是蚂蚁金服全新一代数据可视化解决方案，致力于提供一套简单方便、专业可靠、无限可能的数据可视化最佳实践。',
+            'Cone是菜鸟场景解决方案，抽象并沉淀的丰富场景开箱即用，结合完善的线上研发链路，轻松完成业务设计和UI开发',
           )}
           lang={this.langKey}
         />

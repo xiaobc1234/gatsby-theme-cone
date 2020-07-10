@@ -150,7 +150,7 @@ const Layout = () => {
 
   return (
     <>
-      <SEO title="蚂蚁数据可视化" lang="zh" />
+      <SEO title="菜鸟数据可视化" lang="zh" />
       <Header
         subTitle="子产品名"
         logo={{
