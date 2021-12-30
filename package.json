@@ -1,5 +1,6 @@
 {
-  "name": "gatsby-theme-cone",
+  "name": "gatsby-theme-cone-oc",
+  "description": "针对cone一码多端的gatsby主题",
   "private": true,
   "repository": {
     "type": "git",

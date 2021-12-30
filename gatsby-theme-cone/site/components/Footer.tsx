@@ -17,6 +17,7 @@ interface FooterProps extends RcFooterProps {
   rootDomain?: string;
   language?: string;
   githubUrl?: string;
+  copyrightName?: string | React.ReactNode;
 }
 
 const Footer: React.FC<FooterProps> = ({
@@ -25,6 +26,7 @@ const Footer: React.FC<FooterProps> = ({
   theme = 'dark',
   language,
   rootDomain = '',
+  copyrightName = '菜鸟生态体验技术平台出品',
 }) => {
   const { t, i18n } = useTranslation();
   const lang = language || i18n.language;
@@ -120,8 +122,8 @@ const Footer: React.FC<FooterProps> = ({
   };
 
   const defaultColumns = products
-    .filter(product => product.category !== 'ecology')
-    .map(product => ({
+    .filter((product) => product.category !== 'ecology')
+    .map((product) => ({
       title: (
         <span>
           {product.title}
@@ -141,7 +143,7 @@ const Footer: React.FC<FooterProps> = ({
         bottom || (
           <div className={styles.bottom}>
             <div>
-              © {new Date().getFullYear()} 菜鸟生态体验技术平台出品
+              © {new Date().getFullYear()} {copyrightName}
             </div>
           </div>
         )

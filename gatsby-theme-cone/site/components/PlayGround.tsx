@@ -163,12 +163,13 @@ insertCss(`,
           updateCompiledCode(code);
         } catch (e) {
           console.error(e); // eslint-disable-line no-console
+          //@ts-ignore
           setError(e);
           return;
         }
         setError(null);
       }}
-      editorDidMount={instance => {
+      editorDidMount={(instance) => {
         cmInstance.current = instance;
       }}
     />
